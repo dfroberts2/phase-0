@@ -16,7 +16,10 @@ The 3 stages of a git change are "git add" "git commit" and "git push." When you
 * git add [file or directory] - adds files or directories that have been changed so that they can be committed and "saved" to the branch you are working in. Can also use a wildcard " ." to add all changes.
 * git commit - saves changes to current working branch. can add message to denote changes made. 
 * git reset [HEAD^] - undos commits to specified number of last commits
-* git push - saves changes to remote repository<return>
+* git push - saves changes to remote repository
+*
+
+
 ##What is a pull request and how do you create and merge one
 A pull request is a way of GitHub to receive the changes you made on your local machine. Once you push the changes to the remote repository, you can click the option of creating a new pull request. The new pull request will denote the changes you made from the master. Once created, you can merge it with your master by clicking the merge option.
 ##Why are pull requests preferred when working with teams?

@@ -1,6 +1,6 @@
 #My Website 1 Reflection 
 ##Paste a link to your [USERNAME].github.io repository.
-[My Website](dfroberts.github.io)
+[My Website](https://dfroberts.github.io)
 
 ##Explain how to create a repository on GitHub and clone the repository to your local computer to a non-technical person
 Once logged into your GitHub account, click the "+" at the top right and go through the instructions for a new repository: 

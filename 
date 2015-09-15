@@ -1,0 +1,86 @@
+[1mdiff --git a/week-1/git_clone_command.png b/week-1/git_clone_command.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..523e9f0[m
+Binary files /dev/null and b/week-1/git_clone_command.png differ
+[1mdiff --git a/week-1/git_clone_url.png b/week-1/git_clone_url.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..5403fad[m
+Binary files /dev/null and b/week-1/git_clone_url.png differ
+[1mdiff --git a/week-1/my-website-1-reflection.md b/week-1/my-website-1-reflection.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..351bc75[m
+[1m--- /dev/null[m
+[1m+++ b/week-1/my-website-1-reflection.md[m
+[36m@@ -0,0 +1,33 @@[m
+[32m+[m[32m#My Website 1 Reflection[m[41m [m
+[32m+[m[32m##Paste a link to your [USERNAME].github.io repository.[m
+[32m+[m	[32m[My Website](dfroberts.github.io)[m
+[32m+[m
+[32m+[m[32m##Explain how to create a repository on GitHub and clone the repository to your local computer to a non-technical person[m
+[32m+[m	[32mOnce logged into your GitHub account, click the "+" at the top right and go through the instructions for a new repository:[m[41m [m
+[32m+[m
+[32m+[m	[32m![New Repository Image](new_repository.png)[m
+[32m+[m
+[32m+[m	[32mThen in the command line, enter directory you wish to place the repository on your machine. On GitHub copy the repository git link at the bottom right of the page:[m
+[32m+[m
+[32m+[m	[32m![Git Clone URL Image](git_clone_url.png)[m
+[32m+[m
+[32m+[m	[32mThen type in git clone [URL] into the command line:[m
+[32m+[m
+[32m+[m	[32m![Git Clone Command](git_clone_command.png)[m
+[32m+[m
+[32m+[m	[32mEnter your credentials and your new repository should be cloned onto your local machine[m
+[32m+[m
+[32m+[m[32m##Describe what open source means.[m
+[32m+[m	[32mOpen source means that somebody's coding work is available for editing, copying or any type of modification by others. It can be also be distributed free of charge (depending on the license).[m
+[32m+[m
+[32m+[m[32m##What do you think about Open Source? Does it make you nervous or protective? Does it feel like utopia?[m
+[32m+[m	[32mI understand open source is a big feature of software development. Since coding is very community oriented, open source helps many developers out there collaborate and share ideas. However, if you have an idea that you do not wish to be copied by others, you have to be carefully how you license your software.[m
+[32m+[m
+[32m+[m[32m##Assess the importance of using licenses.[m
+[32m+[m	[32mLicenses are important because they describe how software can be distributed and monetized. It is important to choose the proper license if you do wish to profit from your code, or if you do not another to profit from your work.[m
+[32m+[m
+[32m+[m[32m##What concepts were solidified in the challenge? Did you have any "aha" moments? What did you struggle with?[m
+[32m+[m	[32mThis challenge solidified my git skills. I feel very comfortable with them now, but understand more practice will only help.[m
+[32m+[m
+[32m+[m[32m##Did you find any resources on your own that helped you better understand a topic? If so, please list it.[m
+[32m+[m	[32mWhen writing up my 2nd response, I needed to post images so I looked up how to display images in markdown [here](https://guides.github.com/features/mastering-markdown/)[m
+\ No newline at end of file[m
+[1mdiff --git a/week-1/new_repository.png b/week-1/new_repository.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..2a9bc8d[m
+Binary files /dev/null and b/week-1/new_repository.png differ
+[1mdiff --git a/week-1/reflections.md b/week-1/reflections.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..5ae470c[m
+[1m--- /dev/null[m
+[1m+++ b/week-1/reflections.md[m
+[36m@@ -0,0 +1,46 @@[m
+[32m+[m[32m# Reflections[m
+[32m+[m
+[32m+[m[32m##1.1 Think About Time[m
+[32m+[m[32mI chose to research how small, habitual, behavioral changes can result in long-term, behavioral changes and change in attitude. Through my research, I continually saw examples of how making small tweaks, or how getting into a repetitive habit can result in an increase in productivity and improve attitude and confidence. One of my favorite examples came from this [video](https://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are?language=en#t-1232164) It's a 20 min video so I'll summarize it: Feelings of power and confidence are strongly associated with an large and open posture. The premise is that if you have trouble displaying these feelings you can "fake it" by displaying this large posture before a stressful situation like a job interview and you will actually perform better in that situation. Additionally, if you continually make this a habit, you will eventually automatically display power and confidence and actually BECOME that type of person.[m
+[32m+[m
+[32m+[m[32mThis applies to Time Boxing in that Time Boxing sets yourself up for success by making yourself produce in small, doable steps by allocating a set time for the task at hand. I believe I'm already employing Time Boxing during Phase 0 when writing this reflection. I set aside some time to complete a few of the Week 1 tasks before I have go out and do necessary errands. Then I plan to set aside some time to continue working on Week 1 after completing my errands. Time Boxing allows me to attack a large set of work by breaking it down into small, doable pieces.[m
+[32m+[m
+[32m+[m[32mWhen working full time, I did not have many time limitations to complete work. I could go at my own pace even though I had deadlines. I did, however, use a form of Time Boxing by saying to myself, "I want to x, y and z done by 12:00 today" and set an internal goal. This did not always go according to plan, but it got me into the habit of staying on a continually moving path. Also, I would "reward" myself with taking lunch as long as I got what I wanted to done beforehand. I plan to work the same way during Phase 0 as I've had success past. If I recognize myself going to far astray or not allocating enough time to challenges and projects, I plan to employ the "small habitual changes lead to long term behavioral changes" method to get back on track. Though I do recognize my own vision can be limited, I plan to ask others about their strategies and see if I can incorporate their ideas. So I look forward to reading others' reflections.[m
+[32m+[m
+[32m+[m[32mI know I ran a little long in this reflection, but writing out all of my thoughts helps me better prepare for the exciting journey ahead. Thank you.[m
+[32m+[m
+[32m+[m[32m##1.2 The Command Line[m
+[32m+[m[32mA shell is an interface with the operating system. It controls input and output of the computer. Bash is a type of shell that uses a "command line" to directly input instructions to the computer's processor via text commands. The computer will then display a printed output below the inputted command.[m
+[32m+[m
+[32m+[m[32mI found it challenging to use the Windows Powershell because most of my expericence has been with Unix and most instructions are geared toward Unix systems, but I expect it is important to have knowledge of both command line types.[m
+[32m+[m[32mPracticing using the commands helped me understand how to use them all and I believe I have a solid mastery of them. I believe "help" is the most important command to know, because it can help you understand a new command that you don't understand or haven't used.[m
+[32m+[m
+[32m+[m[32mThe commands definitions:[m
+[32m+[m
+[32m+[m[32mpwd shows the path (computer address) of present working directory--the directory that you are currently working in.[m
+[32m+[m
+[32m+[m[32mls shows the files and directories in the present. In the Windows Powershell, it also displays information about them[m
+[32m+[m
+[32m+[m[32mmv moves a file to another directory or renames them if you don't move them to another directory. it can also rename directories[m
+[32m+[m
+[32m+[m[32mcd changes the directory you are working in[m
+[32m+[m
+[32m+[m[32m../ is a relative address that moves the directory you are working in "back" one

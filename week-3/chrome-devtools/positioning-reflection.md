@@ -32,7 +32,7 @@ You resize elements by changing the height and width of the element.
 
 
 
-Absolute positioning was the easiet to use b/c the divs had no parent elements and they were positioned relative to the entire body.
+Absolute positioning was the easiet to use b/c the divs had no parent elements and they were positioned relative to the entire body. Relative positioning can be tricky if you're not sure where the static position is.
 
 ##What are the differences between Margin, Border, and Padding?
 Margin is the space outside of the border. Border is the line (imaginary or displayed) enclosing the element. Padding is the space between the content of the element and the border.

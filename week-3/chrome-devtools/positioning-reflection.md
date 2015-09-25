@@ -29,7 +29,8 @@ You resize elements by changing the height and width of the element.
 * With Static positioning, the elements appear as they flow in the html document, in order.
 * With Relative positioning, you can set the coordinates of an element relative to where the element would normally lie (their static position).
 * With Fixed positioning, you set the coordinates of the element relative to the window. It will stay on the screen there, even if you scroll.
-* 
+
+
 
 Absolute positioning was the easiet to use b/c the divs had no parent elements and they were positioned relative to the entire body.
 

@@ -25,11 +25,13 @@ In the style section, once you've selected an element, you can set the display t
 You resize elements by changing the height and width of the element.
 
 ##What are the differences between Absolute, Fixed, Static, and Relative positioning? Which did you find easiest to use? Which was most difficult?
-* With Absolute positioning, you can set the exact coordinates of the element relative to the ends of the screen
-* With Relative positioning, you can set the coordinates of an element relative to where the element would normally lie.
-* With Fixed positioning, you set the coordinates of the element the same way as Absolute, but it always stays in that position on the screen, no matter how much you scroll
+* With Absolute positioning, you can set the coordinates of the element relative to it's nearest parent. If there is no parent element, it is relative to the entire body.
+* With Static positioning, the elements appear as they flow in the html document, in order.
+* With Relative positioning, you can set the coordinates of an element relative to where the element would normally lie (their static position).
+* With Fixed positioning, you set the coordinates of the element relative to the window. It will stay on the screen there, even if you scroll.
 * 
-Absolute positioning is the easiet to use I think b/c you don't have to worry about where the element would lie by default. You can set it exactly 
+
+Absolute positioning was the easiet to use b/c the divs had no parent elements and they were positioned relative to the entire body.
 
 ##What are the differences between Margin, Border, and Padding?
 Margin is the space outside of the border. Border is the line (imaginary or displayed) enclosing the element. Padding is the space between the content of the element and the border.

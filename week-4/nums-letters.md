@@ -30,7 +30,7 @@ Integers are whole numbers, floats contain decimals
 Integer division returns an integer so it computes the most amount of times an integer can be divided by another completely. Float division returns another float so it can return the exact quotient.
 
 ##What are strings? Why and when would you use them?
-Strings are text characters in a specific order. They are used to communicated non numerical information
+Strings are text characters in a specific order. They are used to communicated non-numerical information
 
 ##What are local variables? Why and when would you use them?
 Local variables contain information stored into them. They are good for tracking values that change or need to be reused.

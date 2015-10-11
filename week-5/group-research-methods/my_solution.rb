@@ -21,16 +21,16 @@ end
 
 # Person 2
 def my_array_modification_method!(source, thing_to_modify)
-  source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  source.map! {|x| x.is_a?(Fixnum) ? x +=thing_to_modify : x}
 end
 
 def my_hash_modification_method!(source, thing_to_modify)
-  source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  source.each {|k,v| source[k] = v + thing_to_modify}
 end
 
 # Identify and describe the Ruby method(s) you implemented.
-#
-#
+#map! destructively iterated through each object and modified it in place.
+#each iterated through the hash in order to set the "v" at source[k] to v += thing_to_modify.
 #
 
 

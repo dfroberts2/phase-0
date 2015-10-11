@@ -105,8 +105,3 @@ elsif option == 5
   list = print_list(list)
 end 
 end
-
-
-
-
-

@@ -1,21 +1,21 @@
 # Research Methods
 
-# I spent [] hours on this challenge.
+
 
 i_want_pets = ["I", "want", 3, "pets", "but", "only", "have", 2]
 my_family_pets_ages = {"Evi" => 6, "Ditto" => 3, "Hoobie" => 3, "George" => 12, "Bogart" => 4, "Poly" => 4, "Annabelle" => 0}
 
 # Person 1's solution
 def my_array_finding_method(source, thing_to_find)
-  source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  source.select{|x| x =~ /[a-z]/ && x.include?(thing_to_find)}
 end
 
 def my_hash_finding_method(source, thing_to_find)
-  source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  source.select{|k, v| v == thing_to_find}.keys
 end
 
 # Identify and describe the Ruby method(s) you implemented.
-#
+#I used #select in order to pick out only the elements that met the specifications required in the block. Within the block I used match to see if an element matched alphabet characters and if so to check if the element contained what we needed to find using the method #include.
 #
 #
 
@@ -51,44 +51,43 @@ end
 
 # Person 4
 def my_array_deletion_method!(source, thing_to_delete)
-  source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  source.delete_if {|x| x =~ /[a-z]/ && x.include?(thing_to_delete)}
 end
 
 def my_hash_deletion_method!(source, thing_to_delete)
-  source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  source.delete_if {|k, v| k == thing_to_delete}
 end
 
 # Identify and describe the Ruby method(s) you implemented.
-#
+#Ruby has a built in method #delete_if that allows you to remove an element based on a specified perameter passed in the code block. For the array I used match again with a regex to find strings and then if it include what needed to be deleted. For the hash I was able to just say #delete_if a key matches what we needed to delete.
 #
 #
 
 
 # Person 5
 def my_array_splitting_method(source)
-  source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  source.partition{ |x| x.is_a? Fixnum }
 end
 
 def my_hash_splitting_method(source, age)
-  source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  source.partition { |k,v| v <= 5 }
 end
 
 # Identify and describe the Ruby method(s) you implemented.
-#
+##partition was a new method for me. The way it works is that a code block is passed and if an element meets a requirement it is brought into a seperate array and the remaining elements ae grouped into an array of their own. The return is an array containing other arrays with the first array containing elements that passed the code block. Likewise it works with a hash as well by specifying what keys or values we want to partition by.
 #
 #
 
 
-# Release 1: Identify and describe the Ruby method you implemented. Teach your
+# Release 2: Identify and describe the Ruby method you implemented. Teach your
 # accountability group how to use the methods.
-#
+#The methods I used included map and each. While map was much easier to use since it modified the array in place, hashes don't actually have a map method. For the Hash method I stuck to using an each loop where I used a code block to specify that each value should be incremented by 2.
 #
 #
 
 
 # Release 3: Reflect!
 # What did you learn about researching and explaining your research to others?
-#
-#
+#The interesting part of this challenge was that while a particular challenge has it's own problems to solve, the fact that we were working with both arrays and hashes forced us to think outside of the box. A solution to a method with an array as input would need to be modified for a hash or sometimes use a different method all together.
 #
 #

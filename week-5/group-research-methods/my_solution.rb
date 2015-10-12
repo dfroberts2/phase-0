@@ -1,5 +1,5 @@
 # Research Methods
-
+# Worked on by David Roberts, Bruno Zatta and Jess Richardson
 
 
 i_want_pets = ["I", "want", 3, "pets", "but", "only", "have", 2]

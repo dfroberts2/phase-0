@@ -30,14 +30,13 @@
 # return index if true
 
 # If the number is in the column, replace with an 'x'
-  #fill in the outline here
-
-# Display a column to the console
-  #fill in the outline here
+  #FILL IN X in position of returned index if it is not nil (it starts nill)
 
 # Display the board to the console (prettily)
-  #fill in the outline here
+# PRINT WITH || and proper spacing
 
+
+=begin
 # Initial Solution
 
 class BingoBoard
@@ -83,12 +82,44 @@ class BingoBoard
 
 
 end
-
+=end
 
 
 
 # Refactored Solution
+class BingoBoard
 
+  def initialize(board)
+    @bingo_board = board
+  end
+
+  def random
+    @number = rand(1..100)
+    @bingo = ["b","i","n","g","o"]
+    @letter = @bingo.sample
+  end
+
+  def check
+    ind = nil
+    @bingo_board.each_with_index {|x,i| ind = i if x[@bingo.index(@letter)]==@number}
+    @bingo_board[ind][@bingo.index(@letter)] = " X" if ind != nil
+  end
+
+  def display
+    puts "    B   I   N   G   O"
+    for i in 0..4
+      print "||  "
+      for j in 0..4
+        print " " if @bingo_board[i][j] != " X" && @bingo_board[i][j] < 10
+        print @bingo_board[i][j]
+        print "  "
+      end
+      print "||"
+      puts
+    end
+  end
+
+end
 
 
 #DRIVER CODE (I.E. METHOD CALLS) GO BELOW THIS LINE
@@ -99,71 +130,31 @@ board = [[47, 44, 71, 8, 88],
         [75, 70, 54, 80, 83]]
 
 new_game = BingoBoard.new(board)
-new_game.random
-new_game.check
 
 new_game.random
 new_game.check
-
-new_game.random
-new_game.check
-
-new_game.random
-new_game.check
-
-new_game.random
-new_game.check
-
-new_game.random
-new_game.check
-
-new_game.random
-new_game.check
-
-new_game.random
-new_game.check
-
-new_game.random
-new_game.check
-
-new_game.random
-new_game.check
-
-new_game.random
-new_game.check
-
-new_game.random
-new_game.check
-
-new_game.random
-new_game.check
-
-new_game.random
-new_game.check
-
-new_game.random
-new_game.check
-
-new_game.random
-new_game.check
-
-new_game.random
-new_game.check
-
-new_game.random
-new_game.check
-
-new_game.random
-new_game.check
-
-new_game.random
-new_game.check
-
-new_game.random
-new_game.check
-
 
 new_game.display
 
+=begin
 #Reflection
 
+How difficult was pseudocoding this challenge? What do you think of your pseudocoding style?
+It was a bit tricky to figure out exactly how I want to plan out my class design, but it helped give me an idea of what to try out. My code ended up being a little more succinct than I originally planned.
+
+What are the benefits of using a class for this challenge?
+Different methods can be called upon a class instance to perform different tasks
+
+How can you access coordinates in a nested array?
+Since the array was organized in a 5 x 5 fashion for this challenge, accessing the elements in this array was simpler than normal. Normally, you can use nested .each statements. In this case, I just used one .each and called upon the index of a "bingo" array based on the letter chosen to access each element in that letter's column.
+
+What methods did you use to access and modify the array?
+I used the .each_with_index and .index methods 
+
+How did you determine what should be an instance variable versus a local variable?
+If an variable was used in more one method, it was defined as an instance variable. If it was only used within a single method, it was defined as a local variable.
+
+What do you feel is most improved in your refactored solution?
+I cleaned up the display code by adding an additional for loop and I made the ind variable a local variable instead of an instance since it was really only used within the .check method. The code is simpler to read and doesn't repeat much. I was happy with the methods I used in my check method and didn't feel the need to add additional enumerable methods to complicate it.
+
+=end

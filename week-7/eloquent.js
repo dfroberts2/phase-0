@@ -46,3 +46,14 @@ console.log(min(3,-1));
 
 // Data Structures: Objects and Arrays
 // Create an object called "me" that stores your name, age, 3 favorite foods, and a quirk below.
+var me = {
+	name: "Dave",
+	age: 24,
+	favoriteFoods:["stuffing","lasagna","cake"],
+	quirk: "die hard Mets fan"
+};
+
+console.log(me.name);
+console.log(me.age);
+console.log(me.favoriteFoods);
+console.log(me.quirk);

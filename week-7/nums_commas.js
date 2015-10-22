@@ -123,17 +123,15 @@ assert((separateComma(999000999) === "999,000,999"), "Should be 999,000,999", "7
 
 
 // Reflection
-//What was your process for breaking the problem down? What different approaches did you consider?
-//We reflected on how we approached the problem last time and tried to lay it out the logic in a similar fashion without directly copying our Ruby solution. Since we decided to reverse the number and put in a comma every 3 digits, we would need a reverse function. This is easily available if the object is an array so we considered converting it to an array, but decided this would be inefficient. Instead we wrote a reverse function that applies to strings.
 
-//Was your pseudocode effective in helping you build a successful initial solution?
-//Yes. We wrote very detailed pseudocode that almost worked perfectly when we converted it into actual code. There were a few bugs, but it mostly worked out the first time.
+//What was it like to approach the problem from the perspective of JavaScript? Did you approach the problem differently?
+//The logic was similar to our Ruby solution, but we had to account for the differences in built-in methods. JavaScript doesn't have as many built-in methods.
 
-//What Ruby method(s) did you use when refactoring your solution? What difficulties did you have implementing it/them? Did it/they significantly change the way your code works? If so, how?
-//Since we reversed the string twice, we wrote a function within the code that reverses an inputted string. This saved us line-space.
+//What did you learn about iterating over arrays in JavaScript?
+//It's tricker when you don't know about enumerable methods in JavaScript. We had to iterate with a for loop.
 
-//How did you initially iterate through the data structure?
-//We used a for loop that went from index = 0 to the end of the string
+//What was different about solving this problem in JavaScript?
+//There was no built-in reverse method to use. We had to build it ourselves.
 
-//Do you feel your refactored solution is more readable than your initial solution? Why?
-//Yes, it is a bit shorter, and easier to understand b/c it involves less loops to read through.
+//What built-in methods did you find to incorporate in your refactored solution?
+//We used the built-in slice method to our solution

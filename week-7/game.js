@@ -42,6 +42,7 @@ function guess(letter,word) {
 
 function removeGuess(word,display,guess){
 	var wordArray = word.split();
+
 }
 
 

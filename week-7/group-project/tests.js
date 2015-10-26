@@ -1,4 +1,41 @@
 // Add the finished solution here when you receive it.
+
+function sum(numGroup) {
+  var total = 0;
+  for (var x in numGroup) {
+    total += numGroup[x];
+  }
+  return total;
+}
+
+console.log(sum([1,2,3,4,5,6,7,8,9]));
+
+// I also want a program that takes that group of numbers and calculates their average
+
+function mean(numGroup) {
+  var total = 0;
+  for (var x in numGroup) {
+    total += numGroup[x];
+  }
+  return total / numGroup.length;
+}
+
+console.log(mean([1,2,3,4,5,6,7,8,9]));
+
+// Additionally, I want a program that finds the middle number of a group of numbers if they are ordered from least to greatest (aka the median)
+
+function median(numGroup) {
+  var sorted = numGroup.sort();
+  var midpoint = Math.floor(sorted.length / 2) - 1;
+  if (sorted.length % 2 === 0) {
+    return mean([sorted[midpoint], sorted[midpoint+1]]);
+  } else {
+    return sorted[midpoint + 1];
+  }
+}
+
+console.log(median([7,4,5,6,8,5,3]));
+console.log(median([3,4,6,7,3,4]));
 // __________________________________________
 // Tests:  Do not alter code below this line.
 

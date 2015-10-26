@@ -1,8 +1,8 @@
   // JavaScript Olympics
 
-// I paired [by myself, with:] on this challenge.
+// I paired with John Pohill on this challenge.
 
-// This challenge took me [#] hours.
+// This challenge took me 1.5 hours.
 
 
 // Warm Up

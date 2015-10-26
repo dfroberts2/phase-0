@@ -51,3 +51,11 @@ console.log(michaelPhelps.name + " " + michaelPhelps.sport + " " + michaelPhelps
 
 
 // Reflection
+//What JavaScript knowledge did you solidify in this challenge?
+// I gained more familiarity with how "this" works, but I'm still learning
+
+//What are constructor functions?
+//They create a prototype of an instance's object
+
+//How are constructors different from Ruby classes (in your research)?
+//In Ruby an object "inherits" it's properties from a higher class. In JavaScript, properties are inherited via a construtor function. The function gives the new object all of the properties from the instance it was created.
